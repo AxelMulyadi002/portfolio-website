@@ -48,8 +48,8 @@ const LandingPage = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center lg:flex-row lg:max-w-[90%] lg:gap-8 justify-evenly">
-					<div className="lg:w-2/5 text-center lg:text-left max-w-[80%]">
+				<div className="flex flex-col items-center lg:flex-row lg:max-w-[90%] max-w-[80%] lg:gap-8 justify-evenly">
+					<div className="lg:w-2/5 text-center lg:text-left">
 						<h2 className="font-bold text-xl mt-8 lg:text-3xl">What I Do</h2>
 						<p className="mt-4 text-left lg:max-w-[80%] m-auto lg:m-0 lg:mt-4 lg:text-lg">
 							Im a Front-End Developer responsible for crafting engaging and
