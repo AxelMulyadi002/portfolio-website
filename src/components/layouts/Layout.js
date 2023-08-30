@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 	return (
 		<header>
 			<div>
-				<nav className="">
+				<nav className="mt-8">
 					<div className="flex p-2 lg:bg-[#272727] bg-[#232323] min-w-full items-center fixed lg:absolute lg:bottom-[90%] bottom-0 lg:z-10 flex-col">
 						<div className="flex min-w-[80%] justify-between">
 							<h1 className="hidden lg:block lg:text-3xl font-bold cursor-pointer hover:brightness-50">
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
 								})}
 							</ul>
 						</div>
-						<div className="mt-5 mx-auto w-[80%] h-0.5 bg-[#4c4c4c] hidden lg:block border"></div>
+						<div className="mt-5 mx-auto w-[80%] h-0.5 bg-[#4c4c4c] hidden lg:block"></div>
 					</div>
 				</nav>
 			</div>

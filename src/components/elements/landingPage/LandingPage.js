@@ -7,15 +7,15 @@ import { ItemList } from './constant';
 
 const LandingPage = () => {
 	return (
-		<main className="mb-36 ">
+		<main className="mb-36">
 			<section className="flex mt-10 lg:mt-20 flex-col items-center ">
 				<div className=" text-center mx-auto flex flex-col lg:w-4/5">
 					<div className="lg:flex mt-12 gap-4 lg:max-w-[90%]">
-						<div className="w-40 lg:w-56 rounded-full  bg-gradient-to-r from-[#3bf586] to-[#42a8c0] p-0.5 lg:z-20 m-auto">
+						<div className="w-40 lg:w-80 rounded-full  bg-gradient-to-r from-[#3bf586] to-[#42a8c0] p-0.5 lg:z-20 m-auto">
 							<Image
 								src={profile}
 								alt="profil"
-								className="w-full bg-[#3a3636] h-full rounded-full "
+								className="w-full bg-[#3a3636]  rounded-full "
 							/>
 						</div>
 
@@ -48,7 +48,7 @@ const LandingPage = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center lg:flex-row  max-w-[70%] lg:gap-8 justify-evenly">
+				<div className="flex flex-col items-center lg:flex-row  max-w-[80%] lg:gap-8 justify-evenly">
 					<div className=" lg:w-2/5 text-center lg:text-left">
 						<h2 className="font-bold text-xl mt-8 lg:text-3xl">What I Do</h2>
 						<p className="mt-4 text-left lg:max-w-[80%] m-auto lg:m-0 lg:mt-4 lg:text-lg">
