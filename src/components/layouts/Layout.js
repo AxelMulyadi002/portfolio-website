@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
 		<header>
 			<div>
 				<nav className="">
-					<div className="flex p-2 lg:bg-[#272727] bg-[#232323] min-w-full items-center fixed lg:absolute lg:bottom-[90%] bottom-0 lg:z-10 flex-col mt-8">
+					<div className="flex p-2 lg:bg-[#272727] bg-[#232323] min-w-full items-center fixed lg:absolute lg:bottom-[90%] bottom-0 lg:z-10 flex-col md:mt-8">
 						<div className="flex min-w-[80%] justify-between">
 							<h1 className="hidden lg:block lg:text-3xl font-bold cursor-pointer hover:brightness-50">
 								Axel Mulyadi
