@@ -10,15 +10,15 @@ const Layout = ({ children }) => {
 
 	return (
 		<header>
-			<div>
+			<div className="">
 				<nav className="">
-					<div className="flex p-2 lg:bg-[#272727] bg-[#232323] min-w-full items-center fixed lg:absolute lg:bottom-[90%] bottom-0 lg:z-10 flex-col md:mt-8">
+					<div className="flex p-2 lg:bg-[#272727] bg-[#232323] min-w-full items-center fixed lg:absolute lg:bottom-[85%] bottom-0 lg:z-10 flex-col">
 						<div className="flex min-w-[80%] justify-between">
 							<h1 className="hidden lg:block lg:text-3xl font-bold cursor-pointer hover:brightness-50">
 								Axel Mulyadi
 							</h1>
 
-							<ul className="flex font-semibold cursor-pointer  lg:max-w-sm  m-auto lg:m-0  gap-5">
+							<ul className="flex font-semibold cursor-pointer  lg:max-w-sm  m-auto lg:m-0 gap-5">
 								{NAV_LIST.map((nav, index) => {
 									return (
 										<div key={index}>

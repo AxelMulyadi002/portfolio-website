@@ -23,7 +23,7 @@ const LandingPage = () => {
 							<ProfileName />
 						</div>
 
-						<div className="flex w-52 gap-4 justify-center mt-8 lg:order-last m-auto flex-col  lg:w-64">
+						<div className="flex w-52 gap-4 justify-center mt-8 lg:order-last m-auto flex-col  lg:w-96">
 							<h2 className="hidden lg:block text-xl font-bold">
 								Lets Connect
 							</h2>
@@ -48,7 +48,7 @@ const LandingPage = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col items-center lg:flex-row  md:max-w-[70%] lg:gap-8 justify-evenly">
+				<div className="flex flex-col items-center lg:flex-row lg:max-w-[80%] lg:gap-8 justify-evenly">
 					<div className=" lg:w-2/5 text-center lg:text-left">
 						<h2 className="font-bold text-xl mt-8 lg:text-3xl">What I Do</h2>
 						<p className="mt-4 text-left lg:max-w-[80%] m-auto lg:m-0 lg:mt-4 lg:text-lg">
